@@ -1,13 +1,15 @@
 ## RubySlim Docker Image
-Version `2.0`
-Migrated to Alpine Linux image of `ruby-2.3.1-alpine`.
 
-A slim ruby image based on Alpine Linux ready for Rails
-- `MySQL`, `Postgres`, and `SQLite3` extensions
-- Nodejs for Javascript runtime
+#### Versions
+`2.3.1`, `2`, `latest` : `ruby-2.3.1-alpine`.
+
+#### Description
+A small Ruby image based on Alpine Linux ready for Ruby on Rails
+- `MySQL`, `Postgres`, and `SQLite3` system extensions installed for easy use with respective gems.
+- Nodejs installed for Javascript runtime
 - Bash for better shell experience
 - TZData for timezone support
-- Nokogiri gem fix
+- Nokogiri / Alpinegem fix
 
 #### Database Driver Support
 These libraries are installed in the container support Gem installations to support the following database types.
